@@ -402,4 +402,4 @@ production traffic.
 
     ```sh 
     gcloud run services update-traffic  ${_SERVICE_NAME} --to-revisions=$${NEW_PROD}=100  --platform managed  --region ${_REGION}
-    ``
+    ```
