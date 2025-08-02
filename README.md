@@ -400,6 +400,13 @@ production traffic.
     The following line updates the traffic for the base service URL to route
     100% of traffic to the revision tagged as `prod`:
 
-    ```sh 
-    gcloud run services update-traffic  ${_SERVICE_NAME} --to-revisions=$${NEW_PROD}=100  --platform managed  --region ${_REGION}
+    ```sh
+
+
+
+
+
+
+
+        gcloud run services update-traffic  ${_SERVICE_NAME} --to-revisions=$${NEW_PROD}=100  --platform managed  --region ${_REGION}
     ```
